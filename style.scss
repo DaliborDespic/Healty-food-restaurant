@@ -283,12 +283,13 @@ h2 {
     &__links {
         margin: 1rem 0;
         font-size: 0.875rem;
+        
     }
 
     &__item {
-        color: $blueColor;
-
-
+        a {
+            color: $blueColor;
+        }
     }
 
     &__social {
